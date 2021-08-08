@@ -39,7 +39,7 @@ const UserTable = ({ url }: UserProps) => {
        return flattenedUser as FlattenedUser;
     }
 
-    setFlattenedUsers(users.map(flattenUser) as FlattenedUser[]);
+    // setFlattenedUsers((users || []).map(flattenUser) as FlattenedUser[]);
   }, [users, copyProps]);
 
   

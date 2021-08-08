@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Roomba from './components/Roomba';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Roomba />
   </React.StrictMode>,
   document.getElementById('root')
 );

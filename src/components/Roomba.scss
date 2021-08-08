@@ -1,17 +1,4 @@
-.App {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  .Buttons{
-    margin: 20px;
-    display: flex;
-    button:first-child {
-      margin-right: 10px;
-    }
-  }
-  .Grid {
+.Grid {
     border: 2px solid black;
     height: 400px;
     width: 400px;
@@ -31,4 +18,3 @@
       }
     }
   }
-}
